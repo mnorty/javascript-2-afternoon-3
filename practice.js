@@ -143,9 +143,6 @@ uniq(names, function(uniqArr){
 });
 // Do not edit the code above.
 
-if(different.indexOf(arr1[i]) === -1){
-  different.push(arr1[i])
-}
 
 ////////// PROBLEM 6 //////////
 
@@ -155,6 +152,10 @@ if(different.indexOf(arr1[i]) === -1){
 */
 
 function each(arr1, cb){
+  for (i = 0 ;i < arr1.length; i++){
+    
+
+  }
   
 }
 
